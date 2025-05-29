@@ -1,6 +1,6 @@
 {
   "name": "@pddo/firefox-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Firefox 接码平台 SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
     "format": "bun run prettier --write src/**/*.ts",
     "prepublishOnly": "bun run build",
     "release:patch": "npm version patch && git push --follow-tags",
-    "release:minor": "npm version minor && git push --follow-tags", 
+    "release:minor": "npm version minor && git push --follow-tags",
     "release:major": "npm version major && git push --follow-tags",
     "check": "bun run build && bun run lint"
   },
